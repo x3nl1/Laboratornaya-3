@@ -11,14 +11,14 @@ class Animal:
 
 class Dog(Animal):
     def make_sound(self):
-        return "Гав-гав!"
+        return "Гав"
     
     def fetch(self):
         return f"{self.name} приносит палку"
 
 class Cat(Animal):
     def make_sound(self):
-        return "Мяу-мяу!"
+        return "Мяу"
     
     def climb_tree(self):
         return f"{self.name} лазает по дереву"
