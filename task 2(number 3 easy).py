@@ -30,5 +30,6 @@ if __name__ == "__main__":
     account = BankAccount("Иван Иванов", 1000)
     account.deposit(500)
     account.withdraw(300)
+    account.withdraw(50)
     print(account)
     print(f"Текущий баланс: {account.get_balance()}")
